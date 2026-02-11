@@ -2,9 +2,9 @@
 
 namespace SyncClientWinForms
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
       }
