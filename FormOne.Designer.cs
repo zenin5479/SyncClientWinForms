@@ -30,13 +30,13 @@
       {
          SuspendLayout();
          // 
-         // Form1
+         // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(684, 461);
-         Name = "Form1";
-         Text = "Form1";
+         Name = "FormOne";
+         Text = "Синхронный Json клиент Windows Forms";
          ResumeLayout(false);
       }
 
