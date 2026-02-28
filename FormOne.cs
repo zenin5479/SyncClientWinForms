@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace SyncClientWinForms
 {
@@ -385,9 +385,6 @@ namespace SyncClientWinForms
             Console.WriteLine("Ошибка: {0}", ex.Message);
          }
       }
-
-
-
 
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
