@@ -32,7 +32,6 @@
          RichTextBoxReader = new System.Windows.Forms.RichTextBox();
          ListBoxReader = new System.Windows.Forms.ListBox();
          TextBoxReader = new System.Windows.Forms.TextBox();
-         ButtonStart = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // ButtonClear
@@ -72,15 +71,6 @@
          TextBoxReader.Size = new System.Drawing.Size(370, 180);
          TextBoxReader.TabIndex = 15;
          // 
-         // ButtonStart
-         // 
-         ButtonStart.Location = new System.Drawing.Point(552, 355);
-         ButtonStart.Name = "ButtonStart";
-         ButtonStart.Size = new System.Drawing.Size(110, 23);
-         ButtonStart.TabIndex = 14;
-         ButtonStart.Text = "Запуск сервера";
-         ButtonStart.UseVisualStyleBackColor = true;
-         // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -90,7 +80,6 @@
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
          Controls.Add(TextBoxReader);
-         Controls.Add(ButtonStart);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Синхронный Json клиент Windows Forms";
@@ -104,6 +93,5 @@
       private System.Windows.Forms.RichTextBox RichTextBoxReader;
       private System.Windows.Forms.ListBox ListBoxReader;
       private System.Windows.Forms.TextBox TextBoxReader;
-      private System.Windows.Forms.Button ButtonStart;
    }
 }
