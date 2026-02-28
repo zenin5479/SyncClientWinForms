@@ -9,6 +9,11 @@ namespace SyncClientWinForms
          InitializeComponent();
       }
 
+      private void ButtonStart_Click(object sender, System.EventArgs e)
+      {
+
+      }
+
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
          TextBoxReader.Clear();
@@ -16,9 +21,6 @@ namespace SyncClientWinForms
          ListBoxReader.Items.Clear();
       }
 
-      private void ButtonStart_Click(object sender, System.EventArgs e)
-      {
 
-      }
    }
 }
