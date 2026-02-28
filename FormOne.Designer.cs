@@ -37,7 +37,7 @@
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(586, 252);
+         ButtonClear.Location = new System.Drawing.Point(633, 337);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(90, 23);
          ButtonClear.TabIndex = 18;
@@ -46,7 +46,7 @@
          // 
          // RichTextBoxReader
          // 
-         RichTextBoxReader.Location = new System.Drawing.Point(12, 227);
+         RichTextBoxReader.Location = new System.Drawing.Point(12, 198);
          RichTextBoxReader.Name = "RichTextBoxReader";
          RichTextBoxReader.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
          RichTextBoxReader.Size = new System.Drawing.Size(370, 180);
@@ -57,7 +57,7 @@
          // 
          ListBoxReader.FormattingEnabled = true;
          ListBoxReader.ItemHeight = 15;
-         ListBoxReader.Location = new System.Drawing.Point(388, 41);
+         ListBoxReader.Location = new System.Drawing.Point(388, 12);
          ListBoxReader.Name = "ListBoxReader";
          ListBoxReader.ScrollAlwaysVisible = true;
          ListBoxReader.Size = new System.Drawing.Size(370, 184);
@@ -65,7 +65,7 @@
          // 
          // TextBoxReader
          // 
-         TextBoxReader.Location = new System.Drawing.Point(12, 41);
+         TextBoxReader.Location = new System.Drawing.Point(12, 12);
          TextBoxReader.Multiline = true;
          TextBoxReader.Name = "TextBoxReader";
          TextBoxReader.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -74,7 +74,7 @@
          // 
          // ButtonStart
          // 
-         ButtonStart.Location = new System.Drawing.Point(398, 252);
+         ButtonStart.Location = new System.Drawing.Point(426, 251);
          ButtonStart.Name = "ButtonStart";
          ButtonStart.Size = new System.Drawing.Size(110, 23);
          ButtonStart.TabIndex = 14;
@@ -85,7 +85,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(770, 420);
+         ClientSize = new System.Drawing.Size(835, 420);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
