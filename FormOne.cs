@@ -1,13 +1,23 @@
-﻿using System.IO;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
-using System.Xml.Linq;
 
 namespace SyncClientWinForms
 {
+   public class Item
+   {
+      public DateTimeOffset Date { get; set; }
+      public long Timestamp { get; set; }
+      public int Id { get; set; }
+      public string Vendor { get; set; }
+      public string Name { get; set; }
+      public double Price { get; set; }
+   }
+
    public partial class FormOne : Form
    {
       private const string BaseUrl = "http://127.0.0.1:8080/api/items";
