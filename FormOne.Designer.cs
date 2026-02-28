@@ -37,7 +37,7 @@
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(633, 337);
+         ButtonClear.Location = new System.Drawing.Point(668, 333);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(90, 23);
          ButtonClear.TabIndex = 18;
@@ -74,7 +74,7 @@
          // 
          // ButtonStart
          // 
-         ButtonStart.Location = new System.Drawing.Point(426, 251);
+         ButtonStart.Location = new System.Drawing.Point(468, 238);
          ButtonStart.Name = "ButtonStart";
          ButtonStart.Size = new System.Drawing.Size(110, 23);
          ButtonStart.TabIndex = 14;
@@ -85,7 +85,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(835, 420);
+         ClientSize = new System.Drawing.Size(770, 420);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
