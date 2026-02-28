@@ -77,7 +77,7 @@
          // 
          ButtonStart.Location = new System.Drawing.Point(12, 12);
          ButtonStart.Name = "ButtonStart";
-         ButtonStart.Size = new System.Drawing.Size(110, 23);
+         ButtonStart.Size = new System.Drawing.Size(135, 23);
          ButtonStart.TabIndex = 19;
          ButtonStart.Text = "Запуск тестирования";
          ButtonStart.UseVisualStyleBackColor = true;
