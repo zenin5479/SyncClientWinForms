@@ -1,9 +1,13 @@
-﻿using System.Windows.Forms;
+﻿using System.Net;
+using System.Windows.Forms;
 
 namespace SyncClientWinForms
 {
    public partial class FormOne : Form
    {
+      private const string BaseUrl = "http://127.0.0.1:8080/api/items";
+      private static readonly WebClient Client = new WebClient();
+
       public FormOne()
       {
          InitializeComponent();
