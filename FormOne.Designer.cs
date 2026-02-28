@@ -79,7 +79,7 @@
          ButtonStart.Name = "ButtonStart";
          ButtonStart.Size = new System.Drawing.Size(110, 23);
          ButtonStart.TabIndex = 19;
-         ButtonStart.Text = "Запуск сервера";
+         ButtonStart.Text = "Запуск тестирования";
          ButtonStart.UseVisualStyleBackColor = true;
          // 
          // FormOne
