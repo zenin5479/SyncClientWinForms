@@ -37,7 +37,7 @@
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(668, 12);
+         ButtonClear.Location = new System.Drawing.Point(586, 252);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(90, 23);
          ButtonClear.TabIndex = 18;
@@ -74,7 +74,7 @@
          // 
          // ButtonStart
          // 
-         ButtonStart.Location = new System.Drawing.Point(12, 12);
+         ButtonStart.Location = new System.Drawing.Point(398, 252);
          ButtonStart.Name = "ButtonStart";
          ButtonStart.Size = new System.Drawing.Size(110, 23);
          ButtonStart.TabIndex = 14;
