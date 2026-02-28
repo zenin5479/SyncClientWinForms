@@ -85,7 +85,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(795, 420);
+         ClientSize = new System.Drawing.Size(770, 420);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
