@@ -1,10 +1,8 @@
-﻿using System.IO;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
-using System.Xml.Linq;
 
 namespace SyncClientWinForms
 {
