@@ -10,16 +10,6 @@ namespace SyncClientWinForms
 {
    public partial class FormOne : Form
    {
-      public class Item
-      {
-         public DateTimeOffset Date { get; set; }
-         public long Timestamp { get; set; }
-         public int Id { get; set; }
-         public string Vendor { get; set; }
-         public string Name { get; set; }
-         public double Price { get; set; }
-      }
-
       private const string BaseUrl = "http://127.0.0.1:8080/api/items";
       private static readonly WebClient Client = new WebClient();
 
