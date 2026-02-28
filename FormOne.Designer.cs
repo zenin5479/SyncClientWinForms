@@ -81,6 +81,7 @@
          ButtonStart.TabIndex = 19;
          ButtonStart.Text = "Запуск тестирования";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // FormOne
          // 
