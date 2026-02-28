@@ -8,6 +8,16 @@ using Newtonsoft.Json.Linq;
 
 namespace SyncClientWinForms
 {
+   public class Item
+   {
+      public DateTimeOffset Date { get; set; }
+      public long Timestamp { get; set; }
+      public int Id { get; set; }
+      public string Vendor { get; set; }
+      public string Name { get; set; }
+      public double Price { get; set; }
+   }
+
    public partial class FormOne : Form
    {
       public class Item
@@ -28,7 +38,7 @@ namespace SyncClientWinForms
          InitializeComponent();
       }
 
-      private void ButtonStart_Click(object sender, System.EventArgs e)
+      private void ButtonStart_Click(object sender, EventArgs e)
       {
          Console.WriteLine("Синхронный Json клиент");
          Console.WriteLine("===================");
