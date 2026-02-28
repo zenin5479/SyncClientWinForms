@@ -14,13 +14,14 @@ namespace SyncClientWinForms
 
       }
 
+
+
+
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
          TextBoxReader.Clear();
          RichTextBoxReader.Clear();
          ListBoxReader.Items.Clear();
       }
-
-
    }
 }
