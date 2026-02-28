@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace SyncClientWinForms
 {
@@ -26,7 +28,7 @@ namespace SyncClientWinForms
          InitializeComponent();
       }
 
-      private void ButtonStart_Click(object sender, System.EventArgs e)
+      private void ButtonStart_Click(object sender, EventArgs e)
       {
          Console.WriteLine("Синхронный Json клиент");
          Console.WriteLine("===================");
