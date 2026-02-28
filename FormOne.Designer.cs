@@ -74,7 +74,7 @@
          // 
          // ButtonStart
          // 
-         ButtonStart.Location = new System.Drawing.Point(468, 238);
+         ButtonStart.Location = new System.Drawing.Point(552, 355);
          ButtonStart.Name = "ButtonStart";
          ButtonStart.Size = new System.Drawing.Size(110, 23);
          ButtonStart.TabIndex = 14;
