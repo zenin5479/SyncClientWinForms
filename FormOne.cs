@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SyncClientWinForms
 {
@@ -20,6 +22,12 @@ namespace SyncClientWinForms
 
       private void ButtonStart_Click(object sender, EventArgs e)
       {
+         // Добавляет строку оставляя предыдущие
+         _textBox.AppendText(text);
+         _textBox.AppendText(Environment.NewLine);
+         // Прокрутка TextBox вниз
+         _textBox.ScrollToCaret();
+
          //Console.WriteLine("Синхронный Json клиент");
          //Console.WriteLine("===================");
 
