@@ -45,15 +45,15 @@ namespace SyncClientWinForms
             Item item3 = CreateItem(new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 3, Vendor = "DELL", Name = "Смартфон", Price = 543.21 });
 
             // 5. Запрос всех элементов (должно быть 3 элемента)
-            Console.WriteLine("\n5. Запрос всех элементов (должно быть 3 элемента):");
+            //Console.WriteLine("\n5. Запрос всех элементов (должно быть 3 элемента):");
             GetAllItems();
 
             // 6. Получение элемента по ID
-            Console.WriteLine("\n6. Получение элемента по ID {0}:", item2.Id);
+            //Console.WriteLine("\n6. Получение элемента по ID {0}:", item2.Id);
             GetItemById(item2.Id);
 
             // 7. Обновление элемента с ID
-            Console.WriteLine("\n7. Обновление элемента с ID {0}:", item1.Id);
+            //Console.WriteLine("\n7. Обновление элемента с ID {0}:", item1.Id);
             Item updatedItem = UpdateItem(item1.Id, new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 7, Vendor = "Lenovo", Name = "Игровой ноутбук", Price = 1678.95 });
 
             // 8. Проверка обновленного элемента
