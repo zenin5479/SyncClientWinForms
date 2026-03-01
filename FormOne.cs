@@ -362,7 +362,7 @@ namespace SyncClientWinForms
          HttpWebResponse response = (HttpWebResponse)ex.Response;
          if (response != null)
          {
-            Console.WriteLine("HTTP Ошибка: {0} {1}", (int)response.StatusCode, response.StatusCode);
+            //Console.WriteLine("HTTP Ошибка: {0} {1}", (int)response.StatusCode, response.StatusCode);
             using (Stream stream = response.GetResponseStream())
             {
                if (stream != null)
@@ -372,7 +372,7 @@ namespace SyncClientWinForms
                      string errorBody = reader.ReadToEnd();
                      if (!string.IsNullOrEmpty(errorBody))
                      {
-                        Console.WriteLine("Тело ошибки: {0}", errorBody);
+                        //Console.WriteLine("Тело ошибки: {0}", errorBody);
                      }
                   }
                }
