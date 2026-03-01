@@ -303,7 +303,7 @@ namespace SyncClientWinForms
             {
                if (response.StatusCode == HttpStatusCode.BadRequest)
                {
-                  Console.WriteLine("Статус: Ожидаемая ошибка - невалидные данные");
+                  //Console.WriteLine("Статус: Ожидаемая ошибка - невалидные данные");
                   using (Stream stream = ex.Response.GetResponseStream())
                   {
                      if (stream != null)
@@ -311,7 +311,7 @@ namespace SyncClientWinForms
                         using (StreamReader reader = new StreamReader(stream))
                         {
                            string error = reader.ReadToEnd();
-                           Console.WriteLine("Сообщение об ошибке: {0}", error);
+                           //Console.WriteLine("Сообщение об ошибке: {0}", error);
                         }
                      }
                   }
