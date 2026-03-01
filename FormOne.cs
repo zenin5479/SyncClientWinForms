@@ -22,14 +22,17 @@ namespace SyncClientWinForms
 
       private void ButtonStart_Click(object sender, EventArgs e)
       {
-         // Добавляет строку оставляя предыдущие
-         _textBox.AppendText(text);
-         _textBox.AppendText(Environment.NewLine);
-         // Прокрутка TextBox вниз
-         _textBox.ScrollToCaret();
+         // TextBox
+         TextBoxReader.AppendText("Синхронный Json клиент");
+         TextBoxReader.AppendText(Environment.NewLine);
+         TextBoxReader.AppendText("======================");
+         TextBoxReader.AppendText(Environment.NewLine);
+         TextBoxReader.ScrollToCaret();
+
+
 
          //Console.WriteLine("Синхронный Json клиент");
-         //Console.WriteLine("===================");
+         //Console.WriteLine("======================");
 
          // Устанавливаем Content-Type для JSON
          Client.Headers[HttpRequestHeader.ContentType] = "application/json";
