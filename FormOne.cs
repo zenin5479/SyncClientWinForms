@@ -236,7 +236,7 @@ namespace SyncClientWinForms
          {
             string url = string.Format("{0}/{1}", BaseUrl, id);
             Client.DownloadString(url);
-            Console.WriteLine("Статус: ОШИБКА - элемент найден (не должно было произойти)");
+            //Console.WriteLine("Статус: ОШИБКА - элемент найден (не должно было произойти)");
          }
          catch (WebException ex)
          {
