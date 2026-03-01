@@ -123,11 +123,11 @@ namespace SyncClientWinForms
          try
          {
             Client.DownloadString(BaseUrl);
-            Console.WriteLine("1. Сервер доступен");
+            //Console.WriteLine("1. Сервер доступен");
          }
          catch
          {
-            Console.WriteLine("1. Сервер недоступен");
+            //Console.WriteLine("1. Сервер недоступен");
             throw;
          }
       }
