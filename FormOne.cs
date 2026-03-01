@@ -32,8 +32,6 @@ namespace SyncClientWinForms
          // RichTextBox
          RichTextBoxReader.AppendText("Синхронный Json клиент");
          RichTextBoxReader.AppendText(Environment.NewLine);
-         RichTextBoxReader.AppendText("======================");
-         RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.ScrollToCaret();
 
          // Устанавливаем Content-Type для JSON
