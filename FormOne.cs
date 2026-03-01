@@ -265,7 +265,7 @@ namespace SyncClientWinForms
          {
             string url = string.Format("{0}/{1}", BaseUrl, id);
             Client.UploadString(url, "DELETE", "");
-            Console.WriteLine("Статус: ОШИБКА - элемент удален (не должно было произойти)");
+            //Console.WriteLine("Статус: ОШИБКА - элемент удален (не должно было произойти)");
          }
          catch (WebException ex)
          {
