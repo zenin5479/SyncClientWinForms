@@ -5,8 +5,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SyncClientWinForms
 {
@@ -40,7 +38,6 @@ namespace SyncClientWinForms
          RichTextBoxReader.AppendText("======================");
          RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.ScrollToCaret();
-         //Console.WriteLine("======================");
 
          // Устанавливаем Content-Type для JSON
          Client.Headers[HttpRequestHeader.ContentType] = "application/json";
