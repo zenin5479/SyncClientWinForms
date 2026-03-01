@@ -57,15 +57,15 @@ namespace SyncClientWinForms
             Item updatedItem = UpdateItem(item1.Id, new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 7, Vendor = "Lenovo", Name = "Игровой ноутбук", Price = 1678.95 });
 
             // 8. Проверка обновленного элемента
-            Console.WriteLine("\n8. Проверка обновленного элемента:");
+            //Console.WriteLine("\n8. Проверка обновленного элемента:");
             GetItemById(updatedItem.Id);
 
             // 9. Получение несуществующего элемента
-            Console.WriteLine("\n9. Получение несуществующего элемента (ID=88):");
+            //Console.WriteLine("\n9. Получение несуществующего элемента (ID=88):");
             GetNonExistentItem(88);
 
             // 10. Удаление элемента
-            Console.WriteLine("\n10. Удаление элемента с ID {0}:", item3.Id);
+            //Console.WriteLine("\n10. Удаление элемента с ID {0}:", item3.Id);
             DeleteItem(item3.Id);
 
             // 11. Проверка удаления элемента
