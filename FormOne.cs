@@ -116,8 +116,6 @@ namespace SyncClientWinForms
          {
             //Console.WriteLine("Неожиданная ошибка: {0}", ex.Message);
          }
-
-         Console.ReadKey();
       }
 
       static void TestServerConnection()
