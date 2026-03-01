@@ -274,7 +274,7 @@ namespace SyncClientWinForms
             {
                if (response.StatusCode == HttpStatusCode.NotFound)
                {
-                  Console.WriteLine("Статус: Ожидаемая ошибка - элемент не найден");
+                  //Console.WriteLine("Статус: Ожидаемая ошибка - элемент не найден");
                }
                else
                {
