@@ -91,7 +91,7 @@ namespace SyncClientWinForms
             HttpWebResponse response = (HttpWebResponse)ex.Response;
             if (response != null)
             {
-               Console.WriteLine("Ошибка HTTP: {0} - {1}", response.StatusCode, response.StatusDescription);
+               //Console.WriteLine("Ошибка HTTP: {0} - {1}", response.StatusCode, response.StatusDescription);
                if (response.ContentLength > 0)
                {
                   using (Stream stream = response.GetResponseStream())
@@ -101,7 +101,7 @@ namespace SyncClientWinForms
                         using (StreamReader reader = new StreamReader(stream))
                         {
                            string errorBody = reader.ReadToEnd();
-                           Console.WriteLine("Тело ошибки: {0}", errorBody);
+                           //Console.WriteLine("Тело ошибки: {0}", errorBody);
                         }
                      }
                   }
@@ -109,12 +109,12 @@ namespace SyncClientWinForms
             }
             else
             {
-               Console.WriteLine("Ошибка: {0}", ex.Message);
+               //Console.WriteLine("Ошибка: {0}", ex.Message);
             }
          }
          catch (Exception ex)
          {
-            Console.WriteLine("Неожиданная ошибка: {0}", ex.Message);
+            //Console.WriteLine("Неожиданная ошибка: {0}", ex.Message);
          }
 
          Console.ReadKey();
