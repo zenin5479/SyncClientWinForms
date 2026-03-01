@@ -27,7 +27,6 @@ namespace SyncClientWinForms
 
          // ListBox
          ListBoxReader.Items.Add("Синхронный Json клиент");
-         ListBoxReader.Items.Add("======================");
          ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
 
          // RichTextBox
