@@ -40,7 +40,6 @@ namespace SyncClientWinForms
          RichTextBoxReader.AppendText("======================");
          RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.ScrollToCaret();
-
          //Console.WriteLine("======================");
 
          // Устанавливаем Content-Type для JSON
