@@ -77,14 +77,14 @@ namespace SyncClientWinForms
             DeleteNonExistentItem(77);
 
             // 13. Тестирование некорректных данных
-            Console.WriteLine("\n13. Тестирование некорректных данных:");
+            //Console.WriteLine("\n13. Тестирование некорректных данных:");
             TestInvalidData();
 
             // 14. Тестирование неверного метода
-            Console.WriteLine("\n14. Тестирование неверного метода (PATCH):");
+            //Console.WriteLine("\n14. Тестирование неверного метода (PATCH):");
             TestInvalidMethod();
 
-            Console.WriteLine("\nВсе тесты завершены!");
+            //Console.WriteLine("\nВсе тесты завершены!");
          }
          catch (WebException ex)
          {
