@@ -334,7 +334,7 @@ namespace SyncClientWinForms
          {
             Client.Headers[HttpRequestHeader.ContentType] = "application/json";
             Client.UploadString(BaseUrl, "PATCH", "{}");
-            Console.WriteLine("Статус: ОШИБКА - сервер принял неразрешенный метод");
+            //Console.WriteLine("Статус: ОШИБКА - сервер принял неразрешенный метод");
          }
          catch (WebException ex)
          {
@@ -343,7 +343,7 @@ namespace SyncClientWinForms
             {
                if (response.StatusCode == HttpStatusCode.MethodNotAllowed)
                {
-                  Console.WriteLine("Статус: Ожидаемая ошибка - метод не разрешен");
+                  //Console.WriteLine("Статус: Ожидаемая ошибка - метод не разрешен");
                }
                else
                {
