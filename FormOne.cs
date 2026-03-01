@@ -69,11 +69,11 @@ namespace SyncClientWinForms
             DeleteItem(item3.Id);
 
             // 11. Проверка удаления элемента
-            Console.WriteLine("\n11. Проверка удаления элемента:");
+            //Console.WriteLine("\n11. Проверка удаления элемента:");
             GetAllItems();
 
             // 12. Удаление несуществующего элемента
-            Console.WriteLine("\n12. Удаление несуществующего элемента (ID=77):");
+            //Console.WriteLine("\n12. Удаление несуществующего элемента (ID=77):");
             DeleteNonExistentItem(77);
 
             // 13. Тестирование некорректных данных
