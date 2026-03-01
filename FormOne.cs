@@ -138,16 +138,16 @@ namespace SyncClientWinForms
          {
             string response = Client.DownloadString(BaseUrl);
             List<Item> items = JsonConvert.DeserializeObject<List<Item>>(response);
-            Console.WriteLine("Статус: Успешно");
-            Console.WriteLine("Найдено элементов: {0}", items.Count);
+            //Console.WriteLine("Статус: Успешно");
+            //Console.WriteLine("Найдено элементов: {0}", items.Count);
             if (items.Count > 0)
             {
                int i = 0;
                while (i < items.Count)
                {
                   Item item = items[i];
-                  Console.WriteLine("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
-                     item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
+                  //Console.WriteLine("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
+                  //   item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
                   i++;
                }
             }
