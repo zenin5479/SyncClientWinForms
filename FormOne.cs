@@ -20,8 +20,8 @@ namespace SyncClientWinForms
 
       private void ButtonStart_Click(object sender, EventArgs e)
       {
-         Console.WriteLine("Синхронный Json клиент");
-         Console.WriteLine("===================");
+         //Console.WriteLine("Синхронный Json клиент");
+         //Console.WriteLine("===================");
 
          // Устанавливаем Content-Type для JSON
          Client.Headers[HttpRequestHeader.ContentType] = "application/json";
