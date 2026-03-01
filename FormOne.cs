@@ -29,7 +29,7 @@ namespace SyncClientWinForms
          TextBoxReader.AppendText(Environment.NewLine);
          TextBoxReader.ScrollToCaret();
 
-
+         // ListBox
 
          //Console.WriteLine("Синхронный Json клиент");
          //Console.WriteLine("======================");
