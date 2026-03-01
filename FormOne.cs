@@ -38,7 +38,7 @@ namespace SyncClientWinForms
          RichTextBoxReader.AppendText("Синхронный Json клиент");
          RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.AppendText("======================");
-
+         RichTextBoxReader.AppendText(Environment.NewLine);
          // Прокрутка RichTextBox вниз
          RichTextBoxReader.ScrollToCaret();
 
