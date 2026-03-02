@@ -58,7 +58,15 @@ namespace SyncClientWinForms
 
             // 3. Создание первого элемента
             //Console.WriteLine("\n3. Создание первого элемента:");
+            TextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
+            TextBoxReader.AppendText(Environment.NewLine);
 
+            // ListBox
+            ListBoxReader.Items.Add("\n2. Запрос всех элементов (должен быть пустой список):");
+
+            // RichTextBox
+            RichTextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
+            RichTextBoxReader.AppendText(Environment.NewLine);
 
 
             Item item1 = CreateItem(new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 1, Vendor = "HP", Name = "Ноутбук", Price = 1567.89 });
