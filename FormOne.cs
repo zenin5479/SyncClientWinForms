@@ -75,6 +75,7 @@ namespace SyncClientWinForms
             GetAllItems();
 
             // 6. Получение элемента по ID
+            string hjkh = ("\n6. Получение элемента по ID {0}:", item2.Id).ToString();
 
             //Console.WriteLine("\n6. Получение элемента по ID {0}:", item2.Id);
 
