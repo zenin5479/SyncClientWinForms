@@ -72,14 +72,14 @@ namespace SyncClientWinForms
             // 4. Создание второго и третьего элемента
 
             //Console.WriteLine("\n4. Создание второго и третьего элемента:");
-            TextBoxReader.AppendText("\n3. Создание первого элемента:");
+            TextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
             // ListBox
-            ListBoxReader.Items.Add("\n3. Создание первого элемента:");
+            ListBoxReader.Items.Add("\n4. Создание второго и третьего элемента:");
 
             // RichTextBox
-            RichTextBoxReader.AppendText("\n3. Создание первого элемента:");
+            RichTextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             Item item2 = CreateItem(new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 2, Vendor = "ACER", Name = "Смартфон", Price = 234.56 });
