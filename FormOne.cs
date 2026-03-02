@@ -20,16 +20,13 @@ namespace SyncClientWinForms
 
       private void ButtonStart_Click(object sender, EventArgs e)
       {
-         // TextBox
          TextBoxReader.AppendText("Синхронный Json клиент");
          TextBoxReader.AppendText(Environment.NewLine);
          //TextBoxReader.ScrollToCaret();
 
-         // ListBox
          ListBoxReader.Items.Add("Синхронный Json клиент");
          //ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
 
-         // RichTextBox
          RichTextBoxReader.AppendText("Синхронный Json клиент");
          RichTextBoxReader.AppendText(Environment.NewLine);
          //RichTextBoxReader.ScrollToCaret();
