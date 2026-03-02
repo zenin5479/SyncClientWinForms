@@ -57,7 +57,6 @@ namespace SyncClientWinForms
             GetAllItems();
 
             // 3. Создание первого элемента
-
             TextBoxReader.AppendText("\n3. Создание первого элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
@@ -67,7 +66,6 @@ namespace SyncClientWinForms
             // RichTextBox
             RichTextBoxReader.AppendText("\n3. Создание первого элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
-
 
             Item item1 = CreateItem(new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 1, Vendor = "HP", Name = "Ноутбук", Price = 1567.89 });
 
