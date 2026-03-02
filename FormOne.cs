@@ -44,6 +44,20 @@ namespace SyncClientWinForms
 
             // 2. Запрос всех элементов (должен быть пустой список)
             //Console.WriteLine("\n2. Запрос всех элементов (должен быть пустой список):");
+            // TextBox
+            TextBoxReader.AppendText("Синхронный Json клиент");
+            TextBoxReader.AppendText(Environment.NewLine);
+            //TextBoxReader.ScrollToCaret();
+
+            // ListBox
+            ListBoxReader.Items.Add("Синхронный Json клиент");
+            //ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
+
+            // RichTextBox
+            RichTextBoxReader.AppendText("Синхронный Json клиент");
+            RichTextBoxReader.AppendText(Environment.NewLine);
+            //RichTextBoxReader.ScrollToCaret();
+
             GetAllItems();
 
             // 3. Создание первого элемента
