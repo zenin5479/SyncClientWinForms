@@ -77,7 +77,7 @@ namespace SyncClientWinForms
             // 6. Получение элемента по ID
             TextBoxReader.AppendText("\n6. Получение элемента по ID :" + item2.Id);
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("\n5. Запрос всех элементов (должно быть 3 элемента):");
+            ListBoxReader.Items.Add("\n6. Получение элемента по ID :" + item2.Id);
             RichTextBoxReader.AppendText("\n5. Запрос всех элементов (должно быть 3 элемента):");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
