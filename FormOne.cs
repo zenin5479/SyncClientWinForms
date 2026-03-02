@@ -66,7 +66,7 @@ namespace SyncClientWinForms
             Item item3 = CreateItem(new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 3, Vendor = "DELL", Name = "Смартфон", Price = 543.21 });
 
             // 5. Запрос всех элементов (должно быть 3 элемента)
-            //Console.WriteLine("\n5. Запрос всех элементов (должно быть 3 элемента):");
+            
 
             TextBoxReader.AppendText("\n5. Запрос всех элементов (должно быть 3 элемента):");
             TextBoxReader.AppendText(Environment.NewLine);
