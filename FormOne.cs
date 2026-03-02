@@ -54,10 +54,8 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n3. Создание первого элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
-            // ListBox
             ListBoxReader.Items.Add("\n3. Создание первого элемента:");
 
-            // RichTextBox
             RichTextBoxReader.AppendText("\n3. Создание первого элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
