@@ -45,7 +45,6 @@ namespace SyncClientWinForms
 
             ListBoxReader.Items.Add("\n2. Запрос всех элементов (должен быть пустой список):");
 
-            // RichTextBox
             RichTextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
