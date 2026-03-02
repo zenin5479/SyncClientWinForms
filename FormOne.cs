@@ -70,8 +70,6 @@ namespace SyncClientWinForms
             Item item1 = CreateItem(new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 1, Vendor = "HP", Name = "Ноутбук", Price = 1567.89 });
 
             // 4. Создание второго и третьего элемента
-
-            //Console.WriteLine("\n4. Создание второго и третьего элемента:");
             TextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
