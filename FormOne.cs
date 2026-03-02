@@ -65,7 +65,6 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
-            // ListBox
             ListBoxReader.Items.Add("\n4. Создание второго и третьего элемента:");
 
             // RichTextBox
