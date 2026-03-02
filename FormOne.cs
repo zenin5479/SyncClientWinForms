@@ -75,10 +75,6 @@ namespace SyncClientWinForms
             GetAllItems();
 
             // 6. Получение элемента по ID
-            //Console.WriteLine("\n6. Получение элемента по ID {0}:", item2.Id);
-
-            string hjkh = ("\n6. Получение элемента по ID {0}:", item2.Id).ToString();
-
             TextBoxReader.AppendText("\n6. Получение элемента по ID :" + item2.Id);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n5. Запрос всех элементов (должно быть 3 элемента):");
