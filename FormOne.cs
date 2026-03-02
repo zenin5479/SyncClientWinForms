@@ -43,7 +43,6 @@ namespace SyncClientWinForms
             TestServerConnection();
 
             // 2. Запрос всех элементов (должен быть пустой список)
-            //Console.WriteLine("\n2. Запрос всех элементов (должен быть пустой список):");
             // TextBox
             TextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
             TextBoxReader.AppendText(Environment.NewLine);
