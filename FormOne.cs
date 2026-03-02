@@ -47,7 +47,6 @@ namespace SyncClientWinForms
             // TextBox
             TextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
             TextBoxReader.AppendText(Environment.NewLine);
-            //TextBoxReader.ScrollToCaret();
 
             // ListBox
             ListBoxReader.Items.Add("Синхронный Json клиент");
