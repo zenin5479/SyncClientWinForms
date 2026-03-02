@@ -58,14 +58,14 @@ namespace SyncClientWinForms
 
             // 3. Создание первого элемента
             //Console.WriteLine("\n3. Создание первого элемента:");
-            TextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
+            TextBoxReader.AppendText("\n3. Создание первого элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
             // ListBox
-            ListBoxReader.Items.Add("\n2. Запрос всех элементов (должен быть пустой список):");
+            ListBoxReader.Items.Add("\n3. Создание первого элемента:");
 
             // RichTextBox
-            RichTextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
+            RichTextBoxReader.AppendText("\n3. Создание первого элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
 
