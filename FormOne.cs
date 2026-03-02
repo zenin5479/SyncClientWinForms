@@ -67,6 +67,13 @@ namespace SyncClientWinForms
 
             // 5. Запрос всех элементов (должно быть 3 элемента)
             //Console.WriteLine("\n5. Запрос всех элементов (должно быть 3 элемента):");
+
+            TextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("\n4. Создание второго и третьего элемента:");
+            RichTextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
+            RichTextBoxReader.AppendText(Environment.NewLine);
+
             GetAllItems();
 
             // 6. Получение элемента по ID
