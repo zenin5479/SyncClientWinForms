@@ -40,9 +40,7 @@ namespace SyncClientWinForms
             // 2. Запрос всех элементов (должен быть пустой список)
             TextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
             TextBoxReader.AppendText(Environment.NewLine);
-
             ListBoxReader.Items.Add("\n2. Запрос всех элементов (должен быть пустой список):");
-
             RichTextBoxReader.AppendText("\n2. Запрос всех элементов (должен быть пустой список):");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
@@ -51,9 +49,7 @@ namespace SyncClientWinForms
             // 3. Создание первого элемента
             TextBoxReader.AppendText("\n3. Создание первого элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
-
             ListBoxReader.Items.Add("\n3. Создание первого элемента:");
-
             RichTextBoxReader.AppendText("\n3. Создание первого элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
