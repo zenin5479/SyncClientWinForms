@@ -57,7 +57,7 @@ namespace SyncClientWinForms
             GetAllItems();
 
             // 3. Создание первого элемента
-            //Console.WriteLine("\n3. Создание первого элемента:");
+
             TextBoxReader.AppendText("\n3. Создание первого элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
 
