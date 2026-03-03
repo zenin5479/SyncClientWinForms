@@ -124,7 +124,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n11. Проверка удаления элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n11. Проверка удаления элемента:");
-            RichTextBoxReader.AppendText("\n9. Получение несуществующего элемента (ID=88):");
+            RichTextBoxReader.AppendText("\n11. Проверка удаления элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             GetAllItems();
