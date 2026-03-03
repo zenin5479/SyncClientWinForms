@@ -138,7 +138,6 @@ namespace SyncClientWinForms
             DeleteNonExistentItem(77);
 
             // 13. Тестирование некорректных данных
-            //Console.WriteLine("\n13. Тестирование некорректных данных:");
             TextBoxReader.AppendText("\n13. Тестирование некорректных данных:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n13. Тестирование некорректных данных:");
