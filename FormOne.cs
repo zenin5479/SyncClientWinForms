@@ -107,11 +107,9 @@ namespace SyncClientWinForms
             ListBoxReader.Items.Add("\n9. Получение несуществующего элемента (ID=88):");
             RichTextBoxReader.AppendText("\n9. Получение несуществующего элемента (ID=88):");
             RichTextBoxReader.AppendText(Environment.NewLine);
-
             GetNonExistentItem(88);
 
             // 10. Удаление элемента
-            //Console.WriteLine("\n10. Удаление элемента с ID {0}:", item3.Id);
             TextBoxReader.AppendText("\n10. Удаление элемента с ID :" + item3.Id);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n10. Удаление элемента с ID :" + item3.Id);
@@ -167,6 +165,7 @@ namespace SyncClientWinForms
             if (response != null)
             {
                //Console.WriteLine("Ошибка HTTP: {0} - {1}", response.StatusCode, response.StatusDescription);
+
                if (response.ContentLength > 0)
                {
                   using (Stream stream = response.GetResponseStream())
