@@ -93,7 +93,6 @@ namespace SyncClientWinForms
             Item updatedItem = UpdateItem(item1.Id, new Item { Date = DateTimeOffset.UtcNow, Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), Id = 7, Vendor = "Lenovo", Name = "Игровой ноутбук", Price = 1678.95 });
 
             // 8. Проверка обновленного элемента
-            //Console.WriteLine("\n8. Проверка обновленного элемента:");
             TextBoxReader.AppendText("\n8. Проверка обновленного элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n8. Проверка обновленного элемента:");
