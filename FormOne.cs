@@ -199,7 +199,6 @@ namespace SyncClientWinForms
          }
          catch (Exception ex)
          {
-            //Console.WriteLine("Неожиданная ошибка: {0}", ex.Message);
             TextBoxReader.AppendText("Неожиданная ошибка: " + ex.Message);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Неожиданная ошибка: " + ex.Message);
