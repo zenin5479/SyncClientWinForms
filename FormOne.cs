@@ -169,8 +169,6 @@ namespace SyncClientWinForms
                ListBoxReader.Items.Add("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
                RichTextBoxReader.AppendText("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
                RichTextBoxReader.AppendText(Environment.NewLine);
-
-
                if (response.ContentLength > 0)
                {
                   using (Stream stream = response.GetResponseStream())
