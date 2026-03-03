@@ -181,8 +181,8 @@ namespace SyncClientWinForms
                            //Console.WriteLine("Тело ошибки: {0}", errorBody);
                            TextBoxReader.AppendText("Тело ошибки: " + errorBody);
                            TextBoxReader.AppendText(Environment.NewLine);
-                           ListBoxReader.Items.Add("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
-                           RichTextBoxReader.AppendText("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
+                           ListBoxReader.Items.Add("Тело ошибки: " + errorBody);
+                           RichTextBoxReader.AppendText("Тело ошибки: " + errorBody);
                            RichTextBoxReader.AppendText(Environment.NewLine);
                         }
                      }
