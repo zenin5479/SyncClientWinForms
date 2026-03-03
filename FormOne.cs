@@ -133,8 +133,8 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("\n12. Удаление несуществующего элемента (ID=77):");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("\n9. Получение несуществующего элемента (ID=88):");
-            RichTextBoxReader.AppendText("\n9. Получение несуществующего элемента (ID=88):");
+            ListBoxReader.Items.Add("\n12. Удаление несуществующего элемента (ID=77):");
+            RichTextBoxReader.AppendText("\n12. Удаление несуществующего элемента (ID=77):");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             DeleteNonExistentItem(77);
