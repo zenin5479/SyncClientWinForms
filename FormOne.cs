@@ -129,7 +129,6 @@ namespace SyncClientWinForms
             GetAllItems();
 
             // 12. Удаление несуществующего элемента
-            //Console.WriteLine("\n12. Удаление несуществующего элемента (ID=77):");
             TextBoxReader.AppendText("\n12. Удаление несуществующего элемента (ID=77):");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n12. Удаление несуществующего элемента (ID=77):");
