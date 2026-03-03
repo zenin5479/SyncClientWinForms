@@ -112,7 +112,7 @@ namespace SyncClientWinForms
 
             // 10. Удаление элемента
             //Console.WriteLine("\n10. Удаление элемента с ID {0}:", item3.Id);
-            TextBoxReader.AppendText("\n10. Удаление элемента с ID {0}:", item3.Id);
+            TextBoxReader.AppendText("\n10. Удаление элемента с ID :"+item3.Id);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n7. Обновление элемента с ID :" + item1.Id);
             RichTextBoxReader.AppendText("\n7. Обновление элемента с ID :" + item1.Id);
