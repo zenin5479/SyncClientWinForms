@@ -94,7 +94,7 @@ namespace SyncClientWinForms
 
             // 8. Проверка обновленного элемента
             //Console.WriteLine("\n8. Проверка обновленного элемента:");
-            TextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
+            TextBoxReader.AppendText("\n8. Проверка обновленного элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n4. Создание второго и третьего элемента:");
             RichTextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
