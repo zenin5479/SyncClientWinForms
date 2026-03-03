@@ -196,7 +196,6 @@ namespace SyncClientWinForms
                ListBoxReader.Items.Add("Ошибка: " + ex.Message);
                RichTextBoxReader.AppendText("Ошибка: " + ex.Message);
                RichTextBoxReader.AppendText(Environment.NewLine);
-
             }
          }
          catch (Exception ex)
