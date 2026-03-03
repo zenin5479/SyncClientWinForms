@@ -130,6 +130,7 @@ namespace SyncClientWinForms
 
             // 12. Удаление несуществующего элемента
             //Console.WriteLine("\n12. Удаление несуществующего элемента (ID=77):");
+
             DeleteNonExistentItem(77);
 
             // 13. Тестирование некорректных данных
