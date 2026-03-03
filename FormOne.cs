@@ -155,8 +155,6 @@ namespace SyncClientWinForms
             RichTextBoxReader.AppendText("\n13. Тестирование некорректных данных:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
-
-
             TestInvalidMethod();
 
             //Console.WriteLine("\nВсе тесты завершены!");
