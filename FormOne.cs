@@ -95,6 +95,8 @@ namespace SyncClientWinForms
 
             // 8. Проверка обновленного элемента
             //Console.WriteLine("\n8. Проверка обновленного элемента:");
+
+
             GetItemById(updatedItem.Id);
 
             // 9. Получение несуществующего элемента
