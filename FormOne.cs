@@ -164,8 +164,6 @@ namespace SyncClientWinForms
             HttpWebResponse response = (HttpWebResponse)ex.Response;
             if (response != null)
             {
-               //Console.WriteLine("Ошибка HTTP: {0} - {1}", response.StatusCode, response.StatusDescription);
-
                TextBoxReader.AppendText("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
                TextBoxReader.AppendText(Environment.NewLine);
                ListBoxReader.Items.Add("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
