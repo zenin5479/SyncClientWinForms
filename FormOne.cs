@@ -179,6 +179,11 @@ namespace SyncClientWinForms
                         {
                            string errorBody = reader.ReadToEnd();
                            //Console.WriteLine("Тело ошибки: {0}", errorBody);
+                           TextBoxReader.AppendText("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
+                           TextBoxReader.AppendText(Environment.NewLine);
+                           ListBoxReader.Items.Add("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
+                           RichTextBoxReader.AppendText("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
+                           RichTextBoxReader.AppendText(Environment.NewLine);
                         }
                      }
                   }
