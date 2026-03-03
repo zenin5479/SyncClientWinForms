@@ -193,8 +193,8 @@ namespace SyncClientWinForms
                //Console.WriteLine("Ошибка: {0}", ex.Message);
                TextBoxReader.AppendText("Ошибка: " + ex.Message);
                TextBoxReader.AppendText(Environment.NewLine);
-               ListBoxReader.Items.Add("Тело ошибки: " + errorBody);
-               RichTextBoxReader.AppendText("Тело ошибки: " + errorBody);
+               ListBoxReader.Items.Add("Ошибка: " + ex.Message);
+               RichTextBoxReader.AppendText("Ошибка: " + ex.Message);
                RichTextBoxReader.AppendText(Environment.NewLine);
 
             }
