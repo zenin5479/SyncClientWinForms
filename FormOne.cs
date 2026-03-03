@@ -190,7 +190,6 @@ namespace SyncClientWinForms
             }
             else
             {
-               //Console.WriteLine("Ошибка: {0}", ex.Message);
                TextBoxReader.AppendText("Ошибка: " + ex.Message);
                TextBoxReader.AppendText(Environment.NewLine);
                ListBoxReader.Items.Add("Ошибка: " + ex.Message);
@@ -201,6 +200,11 @@ namespace SyncClientWinForms
          catch (Exception ex)
          {
             //Console.WriteLine("Неожиданная ошибка: {0}", ex.Message);
+            TextBoxReader.AppendText("Ошибка: " + ex.Message);
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("Ошибка: " + ex.Message);
+            RichTextBoxReader.AppendText("Ошибка: " + ex.Message);
+            RichTextBoxReader.AppendText(Environment.NewLine);
          }
       }
 
