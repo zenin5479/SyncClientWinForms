@@ -160,7 +160,6 @@ namespace SyncClientWinForms
             ListBoxReader.Items.Add("\nВсе тесты завершены!");
             RichTextBoxReader.AppendText("\nВсе тесты завершены!");
             RichTextBoxReader.AppendText(Environment.NewLine);
-
          }
          catch (WebException ex)
          {
