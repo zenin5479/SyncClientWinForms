@@ -151,7 +151,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n14. Тестирование неверного метода (PATCH):");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n14. Тестирование неверного метода (PATCH):");
-            RichTextBoxReader.AppendText("\n13. Тестирование некорректных данных:");
+            RichTextBoxReader.AppendText("\n14. Тестирование неверного метода (PATCH):");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             TestInvalidMethod();
