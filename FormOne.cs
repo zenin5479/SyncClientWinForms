@@ -104,6 +104,8 @@ namespace SyncClientWinForms
 
             // 9. Получение несуществующего элемента
             //Console.WriteLine("\n9. Получение несуществующего элемента (ID=88):");
+
+
             GetNonExistentItem(88);
 
             // 10. Удаление элемента
