@@ -139,6 +139,7 @@ namespace SyncClientWinForms
 
             // 13. Тестирование некорректных данных
             //Console.WriteLine("\n13. Тестирование некорректных данных:");
+
             TestInvalidData();
 
             // 14. Тестирование неверного метода
