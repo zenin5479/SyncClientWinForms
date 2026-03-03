@@ -120,7 +120,6 @@ namespace SyncClientWinForms
             DeleteItem(item3.Id);
 
             // 11. Проверка удаления элемента
-           
             TextBoxReader.AppendText("\n11. Проверка удаления элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n11. Проверка удаления элемента:");
