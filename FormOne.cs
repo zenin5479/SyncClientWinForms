@@ -106,7 +106,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n9. Получение несуществующего элемента (ID=88):");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n9. Получение несуществующего элемента (ID=88):");
-            RichTextBoxReader.AppendText("\n8. Проверка обновленного элемента:");
+            RichTextBoxReader.AppendText("\n9. Получение несуществующего элемента (ID=88):");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             GetNonExistentItem(88);
