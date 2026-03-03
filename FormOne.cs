@@ -178,7 +178,6 @@ namespace SyncClientWinForms
                         using (StreamReader reader = new StreamReader(stream))
                         {
                            string errorBody = reader.ReadToEnd();
-                           //Console.WriteLine("Тело ошибки: {0}", errorBody);
                            TextBoxReader.AppendText("Тело ошибки: " + errorBody);
                            TextBoxReader.AppendText(Environment.NewLine);
                            ListBoxReader.Items.Add("Тело ошибки: " + errorBody);
@@ -192,6 +191,12 @@ namespace SyncClientWinForms
             else
             {
                //Console.WriteLine("Ошибка: {0}", ex.Message);
+               TextBoxReader.AppendText("Тело ошибки: " + errorBody);
+               TextBoxReader.AppendText(Environment.NewLine);
+               ListBoxReader.Items.Add("Тело ошибки: " + errorBody);
+               RichTextBoxReader.AppendText("Тело ошибки: " + errorBody);
+               RichTextBoxReader.AppendText(Environment.NewLine);
+
             }
          }
          catch (Exception ex)
