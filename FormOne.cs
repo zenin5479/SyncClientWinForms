@@ -157,10 +157,10 @@ namespace SyncClientWinForms
             TestInvalidMethod();
 
             //Console.WriteLine("\nВсе тесты завершены!");
-            TextBoxReader.AppendText("\n14. Тестирование неверного метода (PATCH):");
+            TextBoxReader.AppendText("\nВсе тесты завершены!");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("\n14. Тестирование неверного метода (PATCH):");
-            RichTextBoxReader.AppendText("\n14. Тестирование неверного метода (PATCH):");
+            ListBoxReader.Items.Add("\nВсе тесты завершены!");
+            RichTextBoxReader.AppendText("\nВсе тесты завершены!");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
          }
