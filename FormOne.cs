@@ -149,6 +149,8 @@ namespace SyncClientWinForms
 
             // 14. Тестирование неверного метода
             //Console.WriteLine("\n14. Тестирование неверного метода (PATCH):");
+
+
             TestInvalidMethod();
 
             //Console.WriteLine("\nВсе тесты завершены!");
