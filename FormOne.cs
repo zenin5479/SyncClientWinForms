@@ -85,7 +85,7 @@ namespace SyncClientWinForms
 
             // 7. Обновление элемента с ID
             //Console.WriteLine("\n7. Обновление элемента с ID {0}:", item1.Id);
-            TextBoxReader.AppendText("\n6. Получение элемента по ID :" + item2.Id);
+            TextBoxReader.AppendText("\n7. Обновление элемента с ID :" + item1.Id);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n6. Получение элемента по ID :" + item2.Id);
             RichTextBoxReader.AppendText("\n6. Получение элемента по ID :" + item2.Id);
