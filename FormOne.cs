@@ -97,7 +97,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n8. Проверка обновленного элемента:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n8. Проверка обновленного элемента:");
-            RichTextBoxReader.AppendText("\n4. Создание второго и третьего элемента:");
+            RichTextBoxReader.AppendText("\n8. Проверка обновленного элемента:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             GetItemById(updatedItem.Id);
