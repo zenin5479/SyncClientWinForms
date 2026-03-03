@@ -142,7 +142,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("\n13. Тестирование некорректных данных:");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\n13. Тестирование некорректных данных:");
-            RichTextBoxReader.AppendText("\n12. Удаление несуществующего элемента (ID=77):");
+            RichTextBoxReader.AppendText("\n13. Тестирование некорректных данных:");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             TestInvalidData();
