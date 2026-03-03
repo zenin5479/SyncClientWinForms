@@ -166,6 +166,13 @@ namespace SyncClientWinForms
             {
                //Console.WriteLine("Ошибка HTTP: {0} - {1}", response.StatusCode, response.StatusDescription);
 
+               TextBoxReader.AppendText("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
+               TextBoxReader.AppendText(Environment.NewLine);
+               ListBoxReader.Items.Add("Ошибка HTTP: " + response.StatusCode + " - " + response.StatusDescription);
+               RichTextBoxReader.AppendText("\n6. Получение элемента по ID :" + item2.Id);
+               RichTextBoxReader.AppendText(Environment.NewLine);
+
+
                if (response.ContentLength > 0)
                {
                   using (Stream stream = response.GetResponseStream())
