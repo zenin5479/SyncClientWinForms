@@ -139,6 +139,11 @@ namespace SyncClientWinForms
 
             // 13. Тестирование некорректных данных
             //Console.WriteLine("\n13. Тестирование некорректных данных:");
+            TextBoxReader.AppendText("\n12. Удаление несуществующего элемента (ID=77):");
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("\n12. Удаление несуществующего элемента (ID=77):");
+            RichTextBoxReader.AppendText("\n12. Удаление несуществующего элемента (ID=77):");
+            RichTextBoxReader.AppendText(Environment.NewLine);
 
             TestInvalidData();
 
