@@ -284,9 +284,6 @@ namespace SyncClientWinForms
             ListBoxReader.Items.Add("Статус: Создано успешно");
             RichTextBoxReader.AppendText("Статус: Создано успешно");
             RichTextBoxReader.AppendText(Environment.NewLine);
-
-            //Console.WriteLine("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
-            //   item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
             
             string wording = ("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
                item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price).ToString();
