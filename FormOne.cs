@@ -278,8 +278,7 @@ namespace SyncClientWinForms
             string json = JsonConvert.SerializeObject(item);
             string response = Client.UploadString(BaseUrl, "POST", json);
             Item createdItem = JsonConvert.DeserializeObject<Item>(response);
-            //Console.WriteLine("Статус: Создано успешно");
-
+            
             TextBoxReader.AppendText("Статус: Создано успешно");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: Создано успешно");
