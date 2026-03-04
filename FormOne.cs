@@ -360,7 +360,6 @@ namespace SyncClientWinForms
             RichTextBoxReader.AppendText(wording);
             RichTextBoxReader.AppendText(Environment.NewLine);
 
-
             return updatedItem;
          }
          catch (WebException ex)
