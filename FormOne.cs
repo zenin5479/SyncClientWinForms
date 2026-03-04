@@ -212,6 +212,8 @@ namespace SyncClientWinForms
          try
          {
             Client.DownloadString(BaseUrl);
+
+
             //Console.WriteLine("1. Сервер доступен");
          }
          catch
