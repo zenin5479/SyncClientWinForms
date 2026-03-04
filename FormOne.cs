@@ -259,8 +259,8 @@ namespace SyncClientWinForms
                   TextBoxReader.AppendText(wording);
                   TextBoxReader.AppendText(Environment.NewLine);
 
-                  ListBoxReader.Items.Add("Найдено элементов:" + items.Count);
-                  RichTextBoxReader.AppendText("Найдено элементов:" + items.Count);
+                  ListBoxReader.Items.Add(wording);
+                  RichTextBoxReader.AppendText(wording);
                   RichTextBoxReader.AppendText(Environment.NewLine);
 
 
