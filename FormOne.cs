@@ -373,10 +373,11 @@ namespace SyncClientWinForms
             string response = Client.UploadString(url, "DELETE", "");
             JObject result = JObject.Parse(response);
             //Console.WriteLine("Статус: Удалено успешно");
-            TextBoxReader.AppendText("Статус: Обновлено успешно");
+
+            TextBoxReader.AppendText("Статус: Удалено успешно");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Статус: Обновлено успешно");
-            RichTextBoxReader.AppendText("Статус: Обновлено успешно");
+            ListBoxReader.Items.Add("Статус: Удалено успешно");
+            RichTextBoxReader.AppendText("Статус: Удалено успешно");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             //Console.WriteLine("Сообщение: {0}", result["message"]);
