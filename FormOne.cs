@@ -237,10 +237,10 @@ namespace SyncClientWinForms
             List<Item> items = JsonConvert.DeserializeObject<List<Item>>(response);
             //Console.WriteLine("Статус: Успешно");
 
-            TextBoxReader.AppendText("1. Сервер недоступен");
+            TextBoxReader.AppendText("Статус: Успешно");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("1. Сервер недоступен");
-            RichTextBoxReader.AppendText("1. Сервер недоступен");
+            ListBoxReader.Items.Add("Статус: Успешно");
+            RichTextBoxReader.AppendText("Статус: Успешно");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             //Console.WriteLine("Найдено элементов: {0}", items.Count);
