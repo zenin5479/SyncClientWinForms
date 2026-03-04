@@ -343,10 +343,10 @@ namespace SyncClientWinForms
             Item updatedItem = JsonConvert.DeserializeObject<Item>(response);
             //Console.WriteLine("Статус: Обновлено успешно");
 
-            TextBoxReader.AppendText("Статус: Найден");
+            TextBoxReader.AppendText("Статус: Обновлено успешно");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Статус: Найден");
-            RichTextBoxReader.AppendText("Статус: Найден");
+            ListBoxReader.Items.Add("Статус: Обновлено успешно");
+            RichTextBoxReader.AppendText("Статус: Обновлено успешно");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             //Console.WriteLine("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
