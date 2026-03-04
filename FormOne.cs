@@ -207,7 +207,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static void TestServerConnection()
+      void TestServerConnection()
       {
          try
          {
@@ -215,6 +215,12 @@ namespace SyncClientWinForms
 
 
             //Console.WriteLine("1. Сервер доступен");
+
+            TextBoxReader.AppendText("Неожиданная ошибка: " + ex.Message);
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("Неожиданная ошибка: " + ex.Message);
+            RichTextBoxReader.AppendText("Неожиданная ошибка: " + ex.Message);
+            RichTextBoxReader.AppendText(Environment.NewLine);
          }
          catch
          {
