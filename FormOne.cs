@@ -312,10 +312,10 @@ namespace SyncClientWinForms
             Item item = JsonConvert.DeserializeObject<Item>(response);
             //Console.WriteLine("Статус: Найден");
 
-            TextBoxReader.AppendText("Статус: Создано успешно");
+            TextBoxReader.AppendText("Статус: Найден");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Статус: Создано успешно");
-            RichTextBoxReader.AppendText("Статус: Создано успешно");
+            ListBoxReader.Items.Add("Статус: Найден");
+            RichTextBoxReader.AppendText("Статус: Найден");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
 
