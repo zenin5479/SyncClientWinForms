@@ -213,7 +213,6 @@ namespace SyncClientWinForms
          {
             Client.DownloadString(BaseUrl);
             //Console.WriteLine("1. Сервер доступен");
-
             TextBoxReader.AppendText("1. Сервер доступен");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("1. Сервер доступен");
