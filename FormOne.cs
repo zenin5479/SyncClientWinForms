@@ -235,8 +235,6 @@ namespace SyncClientWinForms
          {
             string response = Client.DownloadString(BaseUrl);
             List<Item> items = JsonConvert.DeserializeObject<List<Item>>(response);
-           
-
             TextBoxReader.AppendText("Статус: Успешно");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: Успешно");
