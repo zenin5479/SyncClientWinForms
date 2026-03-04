@@ -310,7 +310,6 @@ namespace SyncClientWinForms
             string url = string.Format("{0}/{1}", BaseUrl, id);
             string response = Client.DownloadString(url);
             Item item = JsonConvert.DeserializeObject<Item>(response);
-            //Console.WriteLine("Статус: Найден");
 
             TextBoxReader.AppendText("Статус: Найден");
             TextBoxReader.AppendText(Environment.NewLine);
