@@ -384,7 +384,6 @@ namespace SyncClientWinForms
             ListBoxReader.Items.Add("Сообщение: " + result["message"]);
             RichTextBoxReader.AppendText("Сообщение: " + result["message"]);
             RichTextBoxReader.AppendText(Environment.NewLine);
-
          }
          catch (WebException ex)
          {
