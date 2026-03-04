@@ -212,11 +212,9 @@ namespace SyncClientWinForms
          try
          {
             Client.DownloadString(BaseUrl);
-
-
             //Console.WriteLine("1. Сервер доступен");
 
-            TextBoxReader.AppendText("Неожиданная ошибка: " + ex.Message);
+            TextBoxReader.AppendText("1. Сервер доступен");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Неожиданная ошибка: " + ex.Message);
             RichTextBoxReader.AppendText("Неожиданная ошибка: " + ex.Message);
