@@ -216,8 +216,8 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("1. Сервер доступен");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Неожиданная ошибка: " + ex.Message);
-            RichTextBoxReader.AppendText("Неожиданная ошибка: " + ex.Message);
+            ListBoxReader.Items.Add("1. Сервер доступен");
+            RichTextBoxReader.AppendText("1. Сервер доступен");
             RichTextBoxReader.AppendText(Environment.NewLine);
          }
          catch
