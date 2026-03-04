@@ -341,7 +341,6 @@ namespace SyncClientWinForms
             string json = JsonConvert.SerializeObject(item);
             string response = Client.UploadString(url, "PUT", json);
             Item updatedItem = JsonConvert.DeserializeObject<Item>(response);
-            //Console.WriteLine("Статус: Обновлено успешно");
 
             TextBoxReader.AppendText("Статус: Обновлено успешно");
             TextBoxReader.AppendText(Environment.NewLine);
