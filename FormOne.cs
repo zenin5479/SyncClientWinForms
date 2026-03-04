@@ -278,13 +278,13 @@ namespace SyncClientWinForms
             string json = JsonConvert.SerializeObject(item);
             string response = Client.UploadString(BaseUrl, "POST", json);
             Item createdItem = JsonConvert.DeserializeObject<Item>(response);
-            
+
             TextBoxReader.AppendText("Статус: Создано успешно");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: Создано успешно");
             RichTextBoxReader.AppendText("Статус: Создано успешно");
             RichTextBoxReader.AppendText(Environment.NewLine);
-            
+
             string wording = ("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
                item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price).ToString();
 
