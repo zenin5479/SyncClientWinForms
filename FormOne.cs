@@ -256,7 +256,10 @@ namespace SyncClientWinForms
                   //Console.WriteLine("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
                   //   item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
 
-                  TextBoxReader.AppendText("Найдено элементов:" + items.Count);
+                  TextBoxReader.AppendText("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
+                        item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
+
+
                   TextBoxReader.AppendText(Environment.NewLine);
 
 
