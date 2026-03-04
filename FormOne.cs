@@ -381,7 +381,7 @@ namespace SyncClientWinForms
 
             //Console.WriteLine("Сообщение: {0}", result["message"]);
 
-            TextBoxReader.AppendText("Статус: Удалено успешно");
+            TextBoxReader.AppendText("Сообщение: " +result["message"]);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: Удалено успешно");
             RichTextBoxReader.AppendText("Статус: Удалено успешно");
