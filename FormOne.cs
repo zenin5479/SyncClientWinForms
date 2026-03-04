@@ -271,7 +271,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static Item CreateItem(Item item)
+      Item CreateItem(Item item)
       {
          try
          {
