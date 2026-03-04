@@ -280,6 +280,11 @@ namespace SyncClientWinForms
             Item createdItem = JsonConvert.DeserializeObject<Item>(response);
             //Console.WriteLine("Статус: Создано успешно");
 
+            TextBoxReader.AppendText("Статус: Успешно");
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("Статус: Успешно");
+            RichTextBoxReader.AppendText("Статус: Успешно");
+            RichTextBoxReader.AppendText(Environment.NewLine);
 
             //Console.WriteLine("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
             //   item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
