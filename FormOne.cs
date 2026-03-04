@@ -242,7 +242,7 @@ namespace SyncClientWinForms
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             //Console.WriteLine("Найдено элементов: {0}", items.Count);
-            TextBoxReader.AppendText("1. Сервер недоступен");
+            TextBoxReader.AppendText("Найдено элементов:" + items.Count);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("1. Сервер недоступен");
             RichTextBoxReader.AppendText("1. Сервер недоступен");
