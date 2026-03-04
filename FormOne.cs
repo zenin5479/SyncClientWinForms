@@ -381,10 +381,10 @@ namespace SyncClientWinForms
 
             //Console.WriteLine("Сообщение: {0}", result["message"]);
 
-            TextBoxReader.AppendText("Сообщение: " +result["message"]);
+            TextBoxReader.AppendText("Сообщение: " + result["message"]);
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Статус: Удалено успешно");
-            RichTextBoxReader.AppendText("Статус: Удалено успешно");
+            ListBoxReader.Items.Add("Сообщение: " + result["message"]);
+            RichTextBoxReader.AppendText("Сообщение: " + result["message"]);
             RichTextBoxReader.AppendText(Environment.NewLine);
 
          }
