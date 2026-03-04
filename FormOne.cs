@@ -380,6 +380,13 @@ namespace SyncClientWinForms
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             //Console.WriteLine("Сообщение: {0}", result["message"]);
+
+            TextBoxReader.AppendText("Статус: Удалено успешно");
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("Статус: Удалено успешно");
+            RichTextBoxReader.AppendText("Статус: Удалено успешно");
+            RichTextBoxReader.AppendText(Environment.NewLine);
+
          }
          catch (WebException ex)
          {
