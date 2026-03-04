@@ -221,6 +221,11 @@ namespace SyncClientWinForms
          catch
          {
             //Console.WriteLine("1. Сервер недоступен");
+            TextBoxReader.AppendText("1. Сервер доступен");
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("1. Сервер доступен");
+            RichTextBoxReader.AppendText("1. Сервер доступен");
+            RichTextBoxReader.AppendText(Environment.NewLine);
             throw;
          }
       }
