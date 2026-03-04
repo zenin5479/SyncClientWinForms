@@ -261,8 +261,6 @@ namespace SyncClientWinForms
                   ListBoxReader.Items.Add(wording);
                   RichTextBoxReader.AppendText(wording);
                   RichTextBoxReader.AppendText(Environment.NewLine);
-
-
                   i++;
                }
             }
