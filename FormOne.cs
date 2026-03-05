@@ -399,7 +399,7 @@ namespace SyncClientWinForms
             Client.DownloadString(url);
             //Console.WriteLine("Статус: ОШИБКА - элемент найден (не должно было произойти)");
 
-            TextBoxReader.AppendText("Статус: Удалено успешно");
+            TextBoxReader.AppendText("Статус: ОШИБКА - элемент найден (не должно было произойти)");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: Удалено успешно");
             RichTextBoxReader.AppendText("Статус: Удалено успешно");
