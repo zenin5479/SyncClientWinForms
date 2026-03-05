@@ -402,7 +402,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("Статус: ОШИБКА - элемент найден (не должно было произойти)");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: ОШИБКА - элемент найден (не должно было произойти)");
-            RichTextBoxReader.AppendText("Статус: Удалено успешно");
+            RichTextBoxReader.AppendText("Статус: ОШИБКА - элемент найден (не должно было произойти)");
             RichTextBoxReader.AppendText(Environment.NewLine);
          }
          catch (WebException ex)
