@@ -438,7 +438,7 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("Статус: ОШИБКА - элемент удален (не должно было произойти)");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Статус: Ожидаемая ошибка - элемент не найден");
+            ListBoxReader.Items.Add("Статус: ОШИБКА - элемент удален (не должно было произойти)");
             RichTextBoxReader.AppendText("Статус: Ожидаемая ошибка - элемент не найден");
             RichTextBoxReader.AppendText(Environment.NewLine);
          }
