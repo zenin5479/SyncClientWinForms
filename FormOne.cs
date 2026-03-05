@@ -447,7 +447,7 @@ namespace SyncClientWinForms
             {
                if (response.StatusCode == HttpStatusCode.NotFound)
                {
-                  //Console.WriteLine("Статус: Ожидаемая ошибка - элемент не найден");
+                  
                   TextBoxReader.AppendText("Статус: Ожидаемая ошибка - элемент не найден");
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add("Статус: Ожидаемая ошибка - элемент не найден");
