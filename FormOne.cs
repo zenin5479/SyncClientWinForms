@@ -428,7 +428,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static void DeleteNonExistentItem(int id)
+      void DeleteNonExistentItem(int id)
       {
          try
          {
