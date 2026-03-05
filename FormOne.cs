@@ -436,7 +436,7 @@ namespace SyncClientWinForms
             Client.UploadString(url, "DELETE", "");
             //Console.WriteLine("Статус: ОШИБКА - элемент удален (не должно было произойти)");
 
-            TextBoxReader.AppendText("Статус: Ожидаемая ошибка - элемент не найден");
+            TextBoxReader.AppendText("Статус: ОШИБКА - элемент удален (не должно было произойти)");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: Ожидаемая ошибка - элемент не найден");
             RichTextBoxReader.AppendText("Статус: Ожидаемая ошибка - элемент не найден");
