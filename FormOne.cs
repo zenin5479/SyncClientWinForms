@@ -391,7 +391,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static void GetNonExistentItem(int id)
+      void GetNonExistentItem(int id)
       {
          try
          {
