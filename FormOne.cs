@@ -465,7 +465,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static void TestInvalidData()
+      void TestInvalidData()
       {
          try
          {
