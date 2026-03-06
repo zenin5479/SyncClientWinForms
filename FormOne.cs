@@ -501,7 +501,7 @@ namespace SyncClientWinForms
 
                            TextBoxReader.AppendText("Сообщение об ошибке: " + error);
                            TextBoxReader.AppendText(Environment.NewLine);
-                           ListBoxReader.Items.Add("Сообщение: " + result["message"]);
+                           ListBoxReader.Items.Add("Сообщение об ошибке: " + error);
                            RichTextBoxReader.AppendText("Сообщение: " + result["message"]);
                            RichTextBoxReader.AppendText(Environment.NewLine);
 
