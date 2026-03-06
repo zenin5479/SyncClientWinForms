@@ -471,7 +471,6 @@ namespace SyncClientWinForms
          {
             string invalidJson = "{invalid json}";
             Client.UploadString(BaseUrl, "POST", invalidJson);
-
             TextBoxReader.AppendText("Статус: ОШИБКА - сервер принял невалидный JSON");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: ОШИБКА - сервер принял невалидный JSON");
