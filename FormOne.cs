@@ -486,7 +486,7 @@ namespace SyncClientWinForms
                {
                   //Console.WriteLine("Статус: Ожидаемая ошибка - невалидные данные");
 
-                  TextBoxReader.AppendText("Статус: ОШИБКА - сервер принял невалидный JSON");
+                  TextBoxReader.AppendText("Статус: Ожидаемая ошибка - невалидные данные");
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add("Статус: ОШИБКА - сервер принял невалидный JSON");
                   RichTextBoxReader.AppendText("Статус: ОШИБКА - сервер принял невалидный JSON");
