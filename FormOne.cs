@@ -476,7 +476,6 @@ namespace SyncClientWinForms
             ListBoxReader.Items.Add("Статус: ОШИБКА - сервер принял невалидный JSON");
             RichTextBoxReader.AppendText("Статус: ОШИБКА - сервер принял невалидный JSON");
             RichTextBoxReader.AppendText(Environment.NewLine);
-
          }
          catch (WebException ex)
          {
@@ -486,6 +485,9 @@ namespace SyncClientWinForms
                if (response.StatusCode == HttpStatusCode.BadRequest)
                {
                   //Console.WriteLine("Статус: Ожидаемая ошибка - невалидные данные");
+
+
+
                   using (Stream stream = ex.Response.GetResponseStream())
                   {
                      if (stream != null)
