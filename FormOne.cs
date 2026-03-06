@@ -498,6 +498,10 @@ namespace SyncClientWinForms
                         {
                            string error = reader.ReadToEnd();
                            //Console.WriteLine("Сообщение об ошибке: {0}", error);
+
+
+
+
                         }
                      }
                   }
