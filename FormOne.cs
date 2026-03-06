@@ -497,14 +497,11 @@ namespace SyncClientWinForms
                         using (StreamReader reader = new StreamReader(stream))
                         {
                            string error = reader.ReadToEnd();
-
                            TextBoxReader.AppendText("Сообщение об ошибке: " + error);
                            TextBoxReader.AppendText(Environment.NewLine);
                            ListBoxReader.Items.Add("Сообщение об ошибке: " + error);
                            RichTextBoxReader.AppendText("Сообщение об ошибке: " + error);
                            RichTextBoxReader.AppendText(Environment.NewLine);
-
-
                         }
                      }
                   }
