@@ -499,7 +499,11 @@ namespace SyncClientWinForms
                            string error = reader.ReadToEnd();
                            //Console.WriteLine("Сообщение об ошибке: {0}", error);
 
-
+                           TextBoxReader.AppendText("Сообщение: " + result["message"]);
+                           TextBoxReader.AppendText(Environment.NewLine);
+                           ListBoxReader.Items.Add("Сообщение: " + result["message"]);
+                           RichTextBoxReader.AppendText("Сообщение: " + result["message"]);
+                           RichTextBoxReader.AppendText(Environment.NewLine);
 
 
                         }
