@@ -497,7 +497,6 @@ namespace SyncClientWinForms
                         using (StreamReader reader = new StreamReader(stream))
                         {
                            string error = reader.ReadToEnd();
-                           //Console.WriteLine("Сообщение об ошибке: {0}", error);
 
                            TextBoxReader.AppendText("Сообщение об ошибке: " + error);
                            TextBoxReader.AppendText(Environment.NewLine);
