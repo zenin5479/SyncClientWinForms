@@ -485,7 +485,6 @@ namespace SyncClientWinForms
                if (response.StatusCode == HttpStatusCode.BadRequest)
                {
                   //Console.WriteLine("Статус: Ожидаемая ошибка - невалидные данные");
-
                   TextBoxReader.AppendText("Статус: Ожидаемая ошибка - невалидные данные");
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add("Статус: Ожидаемая ошибка - невалидные данные");
