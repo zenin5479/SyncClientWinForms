@@ -537,7 +537,6 @@ namespace SyncClientWinForms
             {
                if (response.StatusCode == HttpStatusCode.MethodNotAllowed)
                {
-                  
                   TextBoxReader.AppendText("Статус: Ожидаемая ошибка - метод не разрешен");
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add("Статус: Ожидаемая ошибка - метод не разрешен");
