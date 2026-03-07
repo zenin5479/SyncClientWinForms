@@ -525,7 +525,7 @@ namespace SyncClientWinForms
             Client.Headers[HttpRequestHeader.ContentType] = "application/json";
             Client.UploadString(BaseUrl, "PATCH", "{}");
 
-            //Console.WriteLine("Статус: ОШИБКА - сервер принял неразрешенный метод");
+            
             TextBoxReader.AppendText("Статус: ОШИБКА - сервер принял неразрешенный метод");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: ОШИБКА - сервер принял неразрешенный метод");
