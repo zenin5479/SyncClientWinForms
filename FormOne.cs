@@ -540,7 +540,7 @@ namespace SyncClientWinForms
                {
                   //Console.WriteLine("Статус: Ожидаемая ошибка - метод не разрешен");
 
-                  TextBoxReader.AppendText("Статус: ОШИБКА - сервер принял неразрешенный метод");
+                  TextBoxReader.AppendText("Статус: Ожидаемая ошибка - метод не разрешен");
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add("Статус: ОШИБКА - сервер принял неразрешенный метод");
                   RichTextBoxReader.AppendText("Статус: ОШИБКА - сервер принял неразрешенный метод");
