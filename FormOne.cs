@@ -542,7 +542,7 @@ namespace SyncClientWinForms
                   TextBoxReader.AppendText("Статус: Ожидаемая ошибка - метод не разрешен");
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add("Статус: Ожидаемая ошибка - метод не разрешен");
-                  RichTextBoxReader.AppendText("Статус: ОШИБКА - сервер принял неразрешенный метод");
+                  RichTextBoxReader.AppendText("Статус: Ожидаемая ошибка - метод не разрешен");
                   RichTextBoxReader.AppendText(Environment.NewLine);
                }
                else
