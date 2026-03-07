@@ -518,7 +518,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static void TestInvalidMethod()
+      void TestInvalidMethod()
       {
          try
          {
