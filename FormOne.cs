@@ -529,7 +529,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("Статус: ОШИБКА - сервер принял неразрешенный метод");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Статус: ОШИБКА - сервер принял неразрешенный метод");
-            RichTextBoxReader.AppendText("Статус: Ожидаемая ошибка - невалидные данные");
+            RichTextBoxReader.AppendText("Статус: ОШИБКА - сервер принял неразрешенный метод");
             RichTextBoxReader.AppendText(Environment.NewLine);
          }
          catch (WebException ex)
