@@ -540,6 +540,8 @@ namespace SyncClientWinForms
                if (response.StatusCode == HttpStatusCode.MethodNotAllowed)
                {
                   //Console.WriteLine("Статус: Ожидаемая ошибка - метод не разрешен");
+
+
                }
                else
                {
