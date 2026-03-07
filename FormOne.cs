@@ -525,6 +525,7 @@ namespace SyncClientWinForms
             Client.Headers[HttpRequestHeader.ContentType] = "application/json";
             Client.UploadString(BaseUrl, "PATCH", "{}");
             //Console.WriteLine("Статус: ОШИБКА - сервер принял неразрешенный метод");
+
          }
          catch (WebException ex)
          {
