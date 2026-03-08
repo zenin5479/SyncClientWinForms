@@ -575,7 +575,6 @@ namespace SyncClientWinForms
                      string errorBody = reader.ReadToEnd();
                      if (!string.IsNullOrEmpty(errorBody))
                      {
-                        //Console.WriteLine("Тело ошибки: {0}", errorBody);
                         TextBoxReader.AppendText("Тело ошибки: " + errorBody);
                         TextBoxReader.AppendText(Environment.NewLine);
                         ListBoxReader.Items.Add("Тело ошибки: " + errorBody);
