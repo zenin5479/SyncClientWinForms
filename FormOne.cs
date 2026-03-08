@@ -253,10 +253,12 @@ namespace SyncClientWinForms
                while (i < items.Count)
                {
                   Item item = items[i];
-                  string wording = ("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
-                     item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price).ToString();
+                  string wording = string.Format("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
+                     item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price);
 
-                  TextBoxReader.AppendText(wording);
+                  TextBoxReader.AppendText(string.Format("Date: {0:dd.MM.yyyy HH:mm:ss.fff}, Timestamp: {1}, ID: {2}, Производитель: {3}, Название: {4}, Цена: {5:F}",
+                     item.Date, item.Timestamp, item.Id, item.Vendor, item.Name, item.Price));
+
                   TextBoxReader.AppendText(Environment.NewLine);
                   ListBoxReader.Items.Add(wording);
                   RichTextBoxReader.AppendText(wording);
