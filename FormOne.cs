@@ -587,7 +587,7 @@ namespace SyncClientWinForms
          }
          else
          {
-           TextBoxReader.AppendText("Ошибка: " + ex.Message);
+            TextBoxReader.AppendText("Ошибка: " + ex.Message);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Ошибка: " + ex.Message);
             RichTextBoxReader.AppendText("Ошибка: " + ex.Message);
