@@ -565,7 +565,7 @@ namespace SyncClientWinForms
             TextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
-            RichTextBoxReader.AppendText("Сообщение об ошибке: " + error);
+            RichTextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             using (Stream stream = response.GetResponseStream())
