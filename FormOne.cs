@@ -562,6 +562,11 @@ namespace SyncClientWinForms
          {
             //Console.WriteLine("HTTP Ошибка: {0} {1}", (int)response.StatusCode, response.StatusCode);
 
+            TextBoxReader.AppendText("Сообщение об ошибке: " + error);
+            TextBoxReader.AppendText(Environment.NewLine);
+            ListBoxReader.Items.Add("Сообщение об ошибке: " + error);
+            RichTextBoxReader.AppendText("Сообщение об ошибке: " + error);
+            RichTextBoxReader.AppendText(Environment.NewLine);
 
             using (Stream stream = response.GetResponseStream())
             {
