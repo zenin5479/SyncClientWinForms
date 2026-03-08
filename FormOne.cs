@@ -591,7 +591,7 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("Ошибка: " + ex.Message);
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Тело ошибки: " + errorBody);
+            ListBoxReader.Items.Add("Ошибка: " + ex.Message);
             RichTextBoxReader.AppendText("Тело ошибки: " + errorBody);
             RichTextBoxReader.AppendText(Environment.NewLine);
          }
