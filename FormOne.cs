@@ -561,7 +561,6 @@ namespace SyncClientWinForms
          if (response != null)
          {
             //Console.WriteLine("HTTP Ошибка: {0} {1}", (int)response.StatusCode, response.StatusCode);
-
             TextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
