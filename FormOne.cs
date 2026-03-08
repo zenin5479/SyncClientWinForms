@@ -555,7 +555,7 @@ namespace SyncClientWinForms
          }
       }
 
-      static void HandleWebException(WebException ex)
+      void HandleWebException(WebException ex)
       {
          HttpWebResponse response = (HttpWebResponse)ex.Response;
          if (response != null)
