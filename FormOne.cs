@@ -576,6 +576,8 @@ namespace SyncClientWinForms
                      if (!string.IsNullOrEmpty(errorBody))
                      {
                         //Console.WriteLine("Тело ошибки: {0}", errorBody);
+
+
                      }
                   }
                }
