@@ -577,7 +577,7 @@ namespace SyncClientWinForms
                      {
                         //Console.WriteLine("Тело ошибки: {0}", errorBody);
 
-                        TextBoxReader.AppendText("Тело ошибки: "+errorBody);
+                        TextBoxReader.AppendText("Тело ошибки: " + errorBody);
                         TextBoxReader.AppendText(Environment.NewLine);
                         ListBoxReader.Items.Add("Сообщение об ошибке: " + error);
                         RichTextBoxReader.AppendText("Сообщение об ошибке: " + error);
