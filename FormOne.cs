@@ -559,7 +559,7 @@ namespace SyncClientWinForms
          HttpWebResponse response = (HttpWebResponse)ex.Response;
          if (response != null)
          {
-            TextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
+            TextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode +" "+ response.StatusCode);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
             RichTextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode + response.StatusCode);
