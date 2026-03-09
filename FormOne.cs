@@ -153,7 +153,7 @@ namespace SyncClientWinForms
 
             TestInvalidMethod();
 
-            TextBoxReader.AppendText("\nВсе тесты завершены!");
+            TextBoxReader.AppendText("\nВсе тесты завершены");
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("\nВсе тесты завершены!");
             RichTextBoxReader.AppendText("\nВсе тесты завершены!");
