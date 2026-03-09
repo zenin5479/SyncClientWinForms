@@ -565,7 +565,6 @@ namespace SyncClientWinForms
             RichTextBoxReader.AppendText("HTTP Ошибка: " + (int)response.StatusCode + " " + response.StatusCode);
             RichTextBoxReader.AppendText(Environment.NewLine);
 
-
             using (Stream stream = response.GetResponseStream())
             {
                if (stream != null)
