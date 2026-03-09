@@ -155,7 +155,7 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("\nВсе тесты завершены");
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("\nВсе тесты завершены!");
+            ListBoxReader.Items.Add("\nВсе тесты завершены");
             RichTextBoxReader.AppendText("\nВсе тесты завершены!");
             RichTextBoxReader.AppendText(Environment.NewLine);
          }
