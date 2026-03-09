@@ -243,7 +243,7 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("Найдено элементов:" + items.Count);
             TextBoxReader.AppendText(Environment.NewLine);
-            ListBoxReader.Items.Add("Найдено элементов:" + items.Count);
+            ListBoxReader.Items.Add("Найдено элементов: " + items.Count);
             RichTextBoxReader.AppendText("Найдено элементов:" + items.Count);
             RichTextBoxReader.AppendText(Environment.NewLine);
 
