@@ -241,10 +241,10 @@ namespace SyncClientWinForms
             RichTextBoxReader.AppendText("Статус: Успешно");
             RichTextBoxReader.AppendText(Environment.NewLine);
 
-            TextBoxReader.AppendText("Найдено элементов:" + items.Count);
+            TextBoxReader.AppendText("Найдено элементов: " + items.Count);
             TextBoxReader.AppendText(Environment.NewLine);
             ListBoxReader.Items.Add("Найдено элементов: " + items.Count);
-            RichTextBoxReader.AppendText("Найдено элементов:" + items.Count);
+            RichTextBoxReader.AppendText("Найдено элементов: " + items.Count);
             RichTextBoxReader.AppendText(Environment.NewLine);
 
             if (items.Count > 0)
