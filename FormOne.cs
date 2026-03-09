@@ -594,7 +594,7 @@ namespace SyncClientWinForms
          }
       }
 
-      private void ButtonClear_Click(object sender, System.EventArgs e)
+      private void ButtonClear_Click(object sender, EventArgs e)
       {
          TextBoxReader.Clear();
          RichTextBoxReader.Clear();
