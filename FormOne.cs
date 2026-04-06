@@ -22,12 +22,9 @@ namespace SyncClientWinForms
       {
          TextBoxReader.AppendText("Синхронный Json клиент");
          TextBoxReader.AppendText(Environment.NewLine);
-         //TextBoxReader.ScrollToCaret();
          ListBoxReader.Items.Add("Синхронный Json клиент");
-         //ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
          RichTextBoxReader.AppendText("Синхронный Json клиент");
          RichTextBoxReader.AppendText(Environment.NewLine);
-         //RichTextBoxReader.ScrollToCaret();
 
          // Устанавливаем Content-Type для JSON
          Client.Headers[HttpRequestHeader.ContentType] = "application/json";
