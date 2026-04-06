@@ -155,9 +155,12 @@ namespace SyncClientWinForms
 
             TextBoxReader.AppendText("\nВсе тесты завершены");
             TextBoxReader.AppendText(Environment.NewLine);
+            TextBoxReader.ScrollToCaret();
             ListBoxReader.Items.Add("\nВсе тесты завершены");
+            ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
             RichTextBoxReader.AppendText("\nВсе тесты завершены");
             RichTextBoxReader.AppendText(Environment.NewLine);
+            RichTextBoxReader.ScrollToCaret();
          }
          catch (WebException ex)
          {
